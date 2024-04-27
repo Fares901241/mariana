@@ -6,17 +6,11 @@
 | page.slug        | string     | ex: "cat.show"                                                      |
 #}
 {% extends "layouts.master" %}
-{# {% block content %}
-    {% component header %}
-{% endblock %} #}
 {% block content %}
-    {% component header %}
+    {# {% component header %} #}
     {% component home %}
-    {% component footer %}
+    {# {% component footer %} #}
 {% endblock %}
-{# {% block content %}
-    {% component footer %}
-{% endblock %} #}
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>
 {% endblock %}
