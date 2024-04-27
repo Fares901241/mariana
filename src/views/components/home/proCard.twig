@@ -1,0 +1,10 @@
+{% for slide in component.slides %}
+    <div class="card animate my-4">
+        <img src="{{slide.image}}" alt="slide.title">
+        <div class="card-content">
+            <h2 class="card-title">{{slide.title}}</h2>
+            <p class="card-description">{{slide.description}}</p>
+            <a href="#" class="card-button">Buy Now</a>
+        </div>
+    </div>
+{% endfor %}
