@@ -128,97 +128,26 @@
     <link rel="stylesheet" href="{{ 'fonts/sallaicons.css'|cdn }}"/>
     
     <style>
-        {# #pcard {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-      .card {
-        width: 300px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        position: relative;
-      }
-      .card img {
-        width: 100%;
-        height: auto;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
 
-      .card-content {
-        padding: 20px;
-      }
+  .bth:hover{
+    background-color: white;
+    color: black;
+  }
 
-      .card-title {
-        font-size: 20px;
-        margin-bottom: 10px;
-      }
-
-      .card-description {
-        color: #666;
-        font-size: 14px;
-      }
-
-      .card-button {
-        display: block;
-        width: 100%;
-        padding: 10px 0;
-        text-align: center;
-        background-color: #4CAF50;
-        color: #fff;
-        text-decoration: none;
-        border: none;
-        border-radius: 0 0 10px 10px;
-        transition: background-color 0.3s ease;
-      }
-
-      .card-button:hover {
-        background-color: #45a049;
-      }
-
-      .animate {
-        animation: slideIn 1s forwards;
-      }
-
-      @keyframes slideIn {
-        from {
-          opacity: 0;
-          transform: translateY(50px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      } #}
-
-      .card {
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .card:hover{
-        transform: scale(1.05);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-      }
-
-      .bth:hover{
-        background-color: white;
-        color: black;
-      }
-
-      .bth:hover .bi{
-        color: black;
-      }
+  .bth:hover .bi{
+    color: black;
+  }
 
 
   .filling-btn {
