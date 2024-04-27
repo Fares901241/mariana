@@ -1,8 +1,10 @@
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
+    {% for slide in component.slides %}
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="{{ slides.mainimage }}" class="d-block w-100" alt="{{ slides.title }}">
+      <img src="{{slide.mainimage}}" class="d-block w-100" alt="{{ slide.maintitle }}">
     </div>
+    {% endfor %}
     {% for slide in component.slides %}
     <div class="carousel-item" data-bs-interval="2000">
       <img src="{{slide.image}}" class="d-block w-100" alt="{{slide.title}}">
