@@ -293,6 +293,17 @@
                             "type": "string",
                             "icon": "sicon-image",
                             "value": null,
+                            "id": "slides.mainimage",
+                            "label": "صورة البنر الاساسيه",
+                            "format": "image",
+                            "required": true,
+                            "placeholder": "",
+                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
+                        },
+                        {
+                            "type": "string",
+                            "icon": "sicon-image",
+                            "value": null,
                             "id": "slides.image",
                             "label": "صورة البنر",
                             "format": "image",
