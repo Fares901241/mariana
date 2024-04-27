@@ -1,5 +1,5 @@
 {# <div id="pcard"> #}
-<div class="container">
+<div class="container-fluid my-5">
     <div class="row justify-content-center">        
         {% for slide in component.slides %}
             {# <div class="card animate my-4">
@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{slide.title}}</h5>
                         <p class="card-text">{{slide.description}}</p>
-                        <a href="#" class="btn btn-primary">Add to cart <i class="bi bi-cart2"></i></a>
+                        <a href="#" class="btn"><i class="bi bi-cart2 mx-2"></i> Add to cart</a>
                     </div>
                 </div>
             </div>
