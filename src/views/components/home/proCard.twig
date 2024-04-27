@@ -1,13 +1,55 @@
-<div id="pcard">
+{# <div id="pcard"> #}
     {% for slide in component.slides %}
-    <div class="card animate my-4">
+    {# <div class="card animate my-4">
         <img src="{{slide.image}}" alt="slide.title">
         <div class="card-content">
             <h2 class="card-title">{{slide.title}}</h2>
             <p class="card-description">{{slide.description}}</p>
             <a href="#" class="card-button">Buy Now</a>
         </div>
-    </div>
+    </div> #}
+
+    <main role="main">
+    <div class="product">
+    <figure>
+      <img src="{{slide.image}}" alt="{{slide.title}}" class="product-image">
+        </figure>
+
+      <div class="product-description">
+
+        <div class="info">
+          <h1>{{slide.title}}</h1>
+          <p>{{slide.description}}</p>
+        </div>
+
+        <div class="price">
+          89
+        </div>
+      </div>
+
+      <div class="product-sidebar">
+        <button class="buy">
+          <span>BUY ITEM</span>
+        </button>
+
+        <button class="info">
+          <span>MORE INFO</span>
+        </button>
+
+        <button class="size">
+          <span>SIZES</span>
+        </button>
+
+        <button class="colors">
+          <span>
+            <a href="" class="color black"></a>
+            <a href="" class="color white"></a>
+            <a href="" class="color red"></a>
+          </span>
+        </button>
+      </div>
+      </div>
+    </main>
 {% endfor %}
-</div>
+{# </div> #}
 
