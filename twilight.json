@@ -282,27 +282,31 @@
                     "type": "string",
                     "icon": "sicon-image",
                     "value": null,
-                    "id": "mainimage",
-                    "label": "صورة البنر الاساسيه",
+                    "label": "صورة رئيسيه",
+                    "id": "background",
                     "format": "image",
                     "required": true,
                     "placeholder": "",
-                    "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
+                    "description": "* المقاس المناسب للصورة هو 1233×500 بكسل",
+                    "settings": {
+                        "height": 580,
+                        "width": 1400
+                    }
                 },
                 {
                     "type": "string",
                     "icon": "sicon-format-text-alt",
                     "label": "عنوان رئيسي",
                     "multilanguage": true,
-                    "id": "maintitle",
+                    "id": "title",
                     "value": null,
                     "required": false,
                     "format": "text",
-                    "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
-                    "placeholder": "يمكنك إضافة عنوان بارز هنا...",
+                    "description": "",
+                    "placeholder": "يمكنك إضافة العنوان الرئيسي هنا...",
                     "hide": false,
                     "minLength": 0,
-                    "maxLength": 100
+                    "maxLength": 80
                 },
                 {
                     "id": "slides",
