@@ -805,13 +805,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "5545130d-e085-4654-a063-98a068009626",
-            "title": "Photos Slider",
-            "icon": "sicon-store",
-            "path": "home.photos-slider",
-            "fields": []
         }
     ],
     "support_url": null,
