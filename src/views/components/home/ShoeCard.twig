@@ -1,0 +1,9 @@
+<div class="container-fluid my-5 text-center">
+    <div class="row justify-content-center">        
+        {% for slide in component.slides %}
+            <div class="col-sm-3 col-md-2">
+                <img src="{{slide.image}}" alt="{{slide.title}}"/>
+            </div>
+        {% endfor %}
+    </div>
+</div>
