@@ -1,9 +1,9 @@
 <div class="container-fluid my-5 text-center">
     <div class="row justify-content-center">        
         {% for slide in component.slides %}
-            <div class="col-sm-10 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{slide.image}}" class="card-img-top" alt="{{slide.title}}">
+            <div class="col-sm-10 col-md-3 mt-3">
+                <div class="card">
+                    <img src="{{slide.image}}" style="cursor:pointer" class="card-img-top" alt="{{slide.title}}">
                     <div class="card-body">
                         <h5 class="card-title">{{slide.title}}</h5>
                         <p class="card-text">{{slide.description}}</p>
